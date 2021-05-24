@@ -84,7 +84,7 @@ if (MyHoppy.toLowerCase()==="no" || MyHoppy.toLowerCase()==="n"){
 }
 else if (MyHoppy.toLowerCase()==="yes" || MyHoppy.toLowerCase()==="y") {
     // console.log("Sorry, that is incorrect");
-    alert("Sorry, Sorry, that is incorrect");
+    alert("Sorry, that is incorrect");
 }
 else {
     // console.log("please answer with either yes/no or y/n");
