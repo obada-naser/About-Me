@@ -2,11 +2,16 @@
 
 alert("Good Morning!");
 
-
 let UserName = prompt("what is your name ?");
 alert("Hello" + " " + UserName);
 alert("This is a Yes or No questions answer with either: yes/no or y/n");
 let score=0;
+
+
+// Q1
+
+function question1(){
+
 let MyAgeRang = prompt("Do you think I am older than 20 years old ?");
 if (MyAgeRang.toLowerCase() === "yes" || MyAgeRang.toLowerCase() === "y") {
     // console.log("that is correct");
@@ -23,9 +28,11 @@ else {
     // console.log("please answer with either yes/no or y/n");
     MyAgeRang = alert("please answer with either yes/no or y/n");
 }
+}
+question1();
 
-
-
+// Q2
+function question2(){
 let MyCont = prompt("Do you think I live in jordan ?");
 if (MyCont.toLowerCase() === "yes" || MyCont.toLowerCase() === "y") {
     // console.log("that is correct");
@@ -41,9 +48,12 @@ else {
     // console.log("please answer with either yes/no or y/n");
     alert("please answer with either yes/no or y/n");
 }
+}
+question2();
 
 
-
+// Q3
+function question3(){
 let MyStudy = prompt("Do you think my field of study is about buisness ?  ");
 
 if (MyStudy.toLowerCase() === "no" || MyStudy.toLowerCase() === "n") {
@@ -60,9 +70,12 @@ else {
     // console.log("please answer with either yes/no or y/n")
     alert("please answer with either yes/no or y/n");
 }
+}
+question3();
 
 
-
+// Q4
+function question4(){
 let MyFavMovie = prompt("Do you think my favourite movie is Batman ?");
 MyFavMovie = MyFavMovie.toLowerCase();
 if (MyFavMovie === "no" || MyFavMovie === "n") {
@@ -79,9 +92,11 @@ else {
     // console.log("please answer with either yes/no or y/n");
     alert("please answer with either yes/no or y/n");
 }
+}
+question4();
 
-
-
+// Q5
+function question5(){
 
 let MyHoppy = prompt("Do you think my favourite hoppy is studying ?");
 if (MyHoppy.toLowerCase() === "no" || MyHoppy.toLowerCase() === "n") {
@@ -98,6 +113,12 @@ else {
     // console.log("please answer with either yes/no or y/n");
     alert("please answer with either yes/no or y/n");
 }
+}
+question5();
+
+
+// Q6
+function question6(){
 let myRealExp = 5;
 let i=0;
 let decNum=4;
@@ -125,9 +146,11 @@ if (i===4) {
     alert(`Sorry, you are out of attempts! the correct answer is ${myRealExp}`);
 }
 
+}
+question6();
 
-
-
+// Q7
+function question7(){
 let myTopAnime = ['naruto', 'code geass', 'monster']
 
 let guessAnime = prompt("What do you think is my favourite anime ? (note:you have only 6 attempts)");
@@ -160,17 +183,19 @@ for (let a = 0; a < 6; a++) {
     else if (flag === 0) {
         guessAnime = prompt("that is an incorrect answer! please try again!");
 
-
-
-
     }
-
 }
+
+
 
 if (flag === 0) {
     alert("Sorry,you are out of attempts. please try again later.");
 }
 alert(`these are the right answers:  ${myTopAnime} `);
+
+}
+question7();
+
 
 alert(`This is your final score ${score}.`);
 
