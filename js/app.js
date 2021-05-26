@@ -71,7 +71,8 @@ else {
 question3();
 
 
-
+// Q4
+function question4(){
 let MyFavMovie = prompt("Do you think my favourite movie is Batman ?");
 MyFavMovie = MyFavMovie.toLowerCase();
 if (MyFavMovie === "no" || MyFavMovie === "n") {
@@ -88,7 +89,8 @@ else {
     // console.log("please answer with either yes/no or y/n");
     alert("please answer with either yes/no or y/n");
 }
-
+}
+question4();
 
 
 
