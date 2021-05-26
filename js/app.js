@@ -114,6 +114,8 @@ else {
 question5();
 
 
+// Q6
+function question6(){
 let myRealExp = 5;
 let i=0;
 let decNum=4;
@@ -141,8 +143,10 @@ if (i===4) {
     alert(`Sorry, you are out of attempts! the correct answer is ${myRealExp}`);
 }
 
+}
+question6();
 
-
+// Q7
 
 let myTopAnime = ['naruto', 'code geass', 'monster']
 
