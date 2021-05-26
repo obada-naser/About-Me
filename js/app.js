@@ -49,7 +49,8 @@ else {
 question2();
 
 
-
+// Q3
+function question3(){
 let MyStudy = prompt("Do you think my field of study is about buisness ?  ");
 
 if (MyStudy.toLowerCase() === "no" || MyStudy.toLowerCase() === "n") {
@@ -66,6 +67,8 @@ else {
     // console.log("please answer with either yes/no or y/n")
     alert("please answer with either yes/no or y/n");
 }
+}
+question3();
 
 
 
