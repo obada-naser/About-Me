@@ -92,7 +92,8 @@ else {
 }
 question4();
 
-
+// Q5
+function question5(){
 
 let MyHoppy = prompt("Do you think my favourite hoppy is studying ?");
 if (MyHoppy.toLowerCase() === "no" || MyHoppy.toLowerCase() === "n") {
@@ -109,6 +110,10 @@ else {
     // console.log("please answer with either yes/no or y/n");
     alert("please answer with either yes/no or y/n");
 }
+}
+question5();
+
+
 let myRealExp = 5;
 let i=0;
 let decNum=4;
