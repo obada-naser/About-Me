@@ -147,7 +147,7 @@ if (i===4) {
 question6();
 
 // Q7
-
+function question7(){
 let myTopAnime = ['naruto', 'code geass', 'monster']
 
 let guessAnime = prompt("What do you think is my favourite anime ? (note:you have only 6 attempts)");
@@ -180,17 +180,19 @@ for (let a = 0; a < 6; a++) {
     else if (flag === 0) {
         guessAnime = prompt("that is an incorrect answer! please try again!");
 
-
-
-
     }
-
 }
+
+
 
 if (flag === 0) {
     alert("Sorry,you are out of attempts. please try again later.");
 }
 alert(`these are the right answers:  ${myTopAnime} `);
+
+}
+question7();
+
 
 alert(`This is your final score ${score}.`);
 
