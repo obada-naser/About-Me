@@ -41,3 +41,22 @@ header nav ul li a{
     text-decoration: none;
     color: #ff449f;
 }
+
+
+#first {
+    background-color:#fff5b7 ;
+    color:darkblue ;
+    font-style: oblique;
+}
+
+#second{
+    background-color:#fff5b7 ;
+    font-weight:bolder;
+}
+
+footer p{
+    font-weight: bolder;
+    font-style: italic;
+
+
+}
