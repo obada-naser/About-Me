@@ -7,6 +7,8 @@ let UserName = prompt("what is your name ?");
 alert("Hello" + " " + UserName);
 alert("This is a Yes or No questions answer with either: yes/no or y/n");
 let score=0;
+
+
 let MyAgeRang = prompt("Do you think I am older than 20 years old ?");
 if (MyAgeRang.toLowerCase() === "yes" || MyAgeRang.toLowerCase() === "y") {
     // console.log("that is correct");
